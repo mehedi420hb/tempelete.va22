@@ -146,6 +146,10 @@ width: 60%;
 .fecher-box ul li{
 
 }
+.fecher-box ul li i{
+    color: #706EDA;
+    font-size: 24px;
+}
 .button-prizing {
     width: 100%;
     padding: 31px 60px;
