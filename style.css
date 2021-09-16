@@ -46,6 +46,7 @@ h1.d-inline-block.fs-4 {
     position: absolute;
     z-index: -1;
 }
+
 /* about */
 .about{
     background-color: #F8F9FF;
@@ -196,28 +197,29 @@ button.btn.btn-outline-secondary {
     width: 50%;
     margin: auto;
     box-shadow: 0px 0px 9px 1.5px #ddd;
+    border-radius: 5px;
 }
-input[type="email"] {
+.form-sec input[type="email"] {
     width: 80%;
     padding: 10px 13px;
     box-shadow: 0px 0px 9px 1.5px #ddd;
     border: none;
 }
-input[type="text"] {
-    width: 40%;
-    margin: 14px 0px;
+.form-sec input[type="text"] {
+    width: 38%;
+    margin: 14px 9px;
     padding: 10px 5px;
     box-shadow: 0px 0px 9px 1.5px #ddd;
     border: none;
 }
-input[type="tel"] {
-    width: 40%;
-    margin: 10px 0;
+.form-sec input[type="tel"] {
+    width: 38%;
+    margin: 25px 11px;
     padding: 10px 5px;
     box-shadow: 0px 0px 9px 1.5px #ddd;
     border: none;
 }
-textarea {
+.form-sec textarea {
     width: 81%;
     height: 100px;
     box-shadow: 0px 0px 9px 1.5px #ddd;
@@ -230,10 +232,29 @@ button.d-inline-block.my-5.btn.btn-md.btn-primary.btn-form.display-7.user-valid.
     padding: 13px 29px;
 }
 .button-sec .last-button{
-    padding: 10px 5px;
+    padding: 14px 22px;
     margin: 15px 0;
+}
+.footer-top-btn2:hover {
+    outline: none !important;
+    background: black;
+    color: white;
+    box-shadow: 0px 0px 18px 5.5px rgb(4 172 4 / 48%);
+}
+.footer-top-btn1{
+    padding: 14px 22px;
+    margin: 15px 0;
+}
+.footer-top-btn1:hover{
+    box-shadow: 0px 0px 18px 5.5px rgb(4 172 4 / 48%) !important;
+}
+.phoneimg {
+    padding: 61px 0 !important;
+    margin: auto !important;
+    width: 600px;
 }
 
 footer{
     background-color: #F8F9FF;
+    color: black !important;
 }
